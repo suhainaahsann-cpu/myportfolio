@@ -3,110 +3,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suhaina Ahsan | My Portfolio</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f8f6ef;
-            color: #435744;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #435744;
-            padding: 20px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 12px;
-        }
-
-        section {
-            padding: 70px 20px;
-            min-height: 200px;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        .home {
-            background-color: #e8e4d8;
-        }
-
-        .card {
-            max-width: 700px;
-            margin: auto;
-            padding: 25px;
-            background: white;
-            border-radius: 15px;
-        }
-    </style>
+<title>Suhaina Ahsan | Personal Portfolio</title>
+<meta name="description" content="Explore the academic journey, skills, interests and projects of Suhaina Ahsan, a BS E-Commerce student at the University of the Punjab.">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 </head>
-
 <body>
-
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#education">Education</a>
-        <a href="#interests">Interests</a>
-        <a href="#contact">Contact</a>
+<!-- Navigation -->
+<header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+        <a href="index.html" class="logo">
+            Suhaina<span>.</span>
+        </a>
+        <button class="menu-toggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-
-    <section id="home" class="home">
-        <h1>Welcome!</h1>
-        <h2>I'm Suhaina Ahsan 🌿</h2>
-        <p>Welcome to my personal portfolio website.</p>
-        <p>A curious mind, a creative soul, and a lifelong learner.</p>
+</header>
+<main>
+    <!-- Hero Section -->
+    <section class="hero home-hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <p class="eyebrow">MY PERSONAL PORTFOLIO</p>
+                <h1>
+                    Hello, I'm
+                    <span class="accent-text">Suhaina Ahsan.</span>
+                </h1>
+                <h2>
+                    Exploring Business, E-Commerce
+                    and the Digital World
+                </h2>
+                <p class="hero-description">
+                    Welcome to my personal portfolio — a space where
+                    my educational journey, developing skills, academic
+                    projects, interests and professional aspirations
+                    come together.
+                </p>
+                <p class="hero-description">
+                    As a BS E-Commerce student at Hailey College of
+                    Commerce, University of the Punjab, I am interested
+                    in understanding how business, technology and
+                    digital innovation connect in today's world.
+                </p>
+                <div class="hero-buttons">
+                    <a href="about.html" class="button button-primary">
+                        Get to Know Me
+                    </a>
+                    <a href="projects.html" class="button button-outline">
+                        Explore My Projects
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <span class="visual-symbol">✳️</span>
+                    <p class="visual-label">A JOURNEY OF</p>
+                    <h3>Learning.</h3>
+                    <h3>Growing.</h3>
+                    <h3>Creating.</h3>
+                    <div class="visual-divider"></div>
+                    <p class="visual-caption">
+                        Every experience is an opportunity
+                        to learn something new.
+                    </p>
+                </div>
+                <span class="decor decor-one"></span>
+                <span class="decor decor-two"></span>
+            </div>
+        </div>
     </section>
-
-    <section id="about">
-        <div class="card">
-            <h2>About Me</h2>
-            <p>
-                I am an E-Commerce student interested in business,
-                communication, creativity, and technology.
-                I enjoy learning new skills, exploring ideas,
-                and discovering opportunities for personal
-                and professional growth.
+    <!-- Introduction Section -->
+    <section class="section introduction-section">
+        <div class="container narrow-container">
+            <p class="eyebrow">A LITTLE INTRODUCTION</p>
+            <h2 class="section-title">
+                A little about the person behind the portfolio.
+            </h2>
+            <p class="section-text">
+                I believe that learning is an ongoing journey.
+                My academic background in E-Commerce has introduced
+                me to the relationship between business, digital
+                platforms, communication and technology.
             </p>
+            <p class="section-text">
+                Through my education, practical experiences and
+                personal interests, I continue to explore the
+                skills and knowledge that can help me grow into
+                a capable and adaptable professional.
+            </p>
+            <p class="section-text">
+                This website brings together the different parts
+                of that journey. It offers an overview of my
+                education, skills, experiences, projects and the
+                fields I would like to explore further.
+            </p>
+            <a href="about.html" class="text-link">
+                Discover My Story →
+            </a>
         </div>
     </section>
-
-    <section id="education">
-        <div class="card">
-            <h2>Education</h2>
-            <h3>BS E-Commerce</h3>
-            <p>Hailey College of Commerce</p>
-            <p>University of the Punjab, Lahore, Pakistan</p>
-            <p>Graduating Class of 2026</p>
+    <!-- Education Preview -->
+    <section class="section education-preview">
+        <div class="container">
+            <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+            <h2 class="section-title">
+                Building a foundation for the future.
+            </h2>
+            <p class="section-text">
+                My academic journey has centred on understanding
+                E-Commerce and the changing relationship between
+                business and the digital environment.
+            </p>
+            <div class="feature-card">
+                <span class="card-number">01</span>
+                <div>
+                    <h3>BS E-Commerce</h3>
+                    <p>
+                        Hailey College of Commerce
+                    </p>
+                    <p>
+                        University of the Punjab, Lahore, Pakistan
+                    </p>
+                    <span class="card-tag">
+                        Graduating Class of 2026
+                    </span>
+                </div>
+            </div>
+            <a href="education.html" class="text-link">
+                Explore My Education →
+            </a>
         </div>
     </section>
-
-    <section id="interests">
-        <div class="card">
-            <h2>My Interests</h2>
-            <p>Digital Marketing • E-Commerce • Business Analytics</p>
-            <p>Artificial Intelligence • Business Management</p>
+    <!-- Interests Preview -->
+    <section class="section interests-preview">
+        <div class="container">
+            <p class="eyebrow">WHAT INSPIRES ME</p>
+            <h2 class="section-title">
+                Fields I'm interested in exploring.
+            </h2>
+            <p class="section-text">
+                My field of study connects several areas that
+                continue to interest me. I am keen to explore
+                how these fields can contribute to business
+                development, creativity and professional growth.
+            </p>
+            <div class="card-grid">
+                <article class="interest-card">
+                    <span class="interest-icon">01</span>
+                    <h3>E-Commerce</h3>
+                    <p>
+                        Exploring online business models,
+                        digital marketplaces and the way
+                        businesses connect with customers.
+                    </p>
+                </article>
+                <article class="interest-card">
+                    <span class="interest-icon">02</span>
+                    <h3>Digital Marketing</h3>
+                    <p>
+                        Learning how brands communicate,
+                        build an online presence and connect
+                        with their target audiences.
+                    </p>
+                </article>
+                <article class="interest-card">
+                    <span class="interest-icon">03</span>
+                    <h3>Business & Technology</h3>
+                    <p>
+                        Exploring the role of digital tools
+                        and emerging technologies in modern
+                        business environments.
+                    </p>
+                </article>
+            </div>
+            <a href="interests.html" class="text-link">
+                Explore My Interests →
+            </a>
         </div>
     </section>
-
-    <section id="contact">
-        <div class="card">
-            <h2>Contact Me</h2>
-            <p>I'd love to connect and explore new opportunities.</p>
-            <p>Email: yourname@example.com</p>
+    <!-- Projects Preview -->
+    <section class="section projects-preview">
+        <div class="container project-intro">
+            <div>
+                <p class="eyebrow">MY WORK</p>
+                <h2 class="section-title">
+                    Ideas, learning and practical projects.
+                </h2>
+            </div>
+            <div>
+                <p class="section-text">
+                    Academic projects provide opportunities to
+                    apply classroom learning, explore new ideas
+                    and develop practical skills.
+                </p>
+                <p class="section-text">
+                    My portfolio will showcase selected projects,
+                    their objectives, the work involved and the
+                    knowledge gained through each experience.
+                </p>
+                <a href="projects.html" class="text-link">
+                    View My Portfolio →
+                </a>
+            </div>
         </div>
     </section>
-
-    <footer style="padding: 25px;">
-        <p>© 2026 Suhaina Ahsan | My Personal Portfolio</p>
-    </footer>
-
+    <!-- Closing Section -->
+    <section class="closing-section">
+        <div class="container closing-content">
+            <p class="eyebrow">THANK YOU FOR VISITING</p>
+            <h2>
+                Every journey begins with a willingness to learn.
+            </h2>
+            <p>
+                Thank you for taking the time to explore my portfolio.
+                I invite you to discover more about my background,
+                interests and professional journey.
+            </p>
+            <a href="contact.html" class="button button-light">
+                Get in Touch
+            </a>
+        </div>
+    </section>
+</main>
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container footer-content">
+        <a href="index.html" class="logo footer-logo">
+            Suhaina<span>.</span>
+        </a>
+        <p>
+            Personal Portfolio | Suhaina Ahsan | 2026
+        </p>
+        <a href="contact.html" class="footer-link">
+            Contact Me
+        </a>
+    </div>
+</footer>
 </body>
 </html>
